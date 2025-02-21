@@ -1,0 +1,116 @@
+/* Sidebar Styling */
+.sidenav {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Logo styling */
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo-img {
+    width: 40px; /* Set the width of the logo */
+    height: 40px; /* Set the height of the logo */
+    margin-right: 10px; /* Space between the logo and text */
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Sidebar Links Styling */
+.sidenav a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+}
+
+.sidenav-bar a:hover {
+    background-color: #575757;
+    color: #fff;
+}
+
+/* Content Section */
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    width: calc(100% - 250px);
+    transition: margin-left 0.3s ease;
+}
+
+/* Main Container */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4caf50;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* Dashboard Cards */
+.dashboard-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 23%;
+}
+
+.card h3 {
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card p {
+    color: #777;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.card a {
+    text-decoration: none;
+    color: #4caf50;
+    font-weight: 600;
+}
+
+.card a:hover {
+    color: #45a049;
+}
+.logo-img {
+    width: 70px; 
+    height: 70px; 
+    margin-right: 20px; 
+    justify-content: center;
+    padding-left: 50px;
+}

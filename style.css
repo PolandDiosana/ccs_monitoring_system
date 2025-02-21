@@ -1,0 +1,71 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #e3e8f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* W3CSS Custom Styles for the Main Form */
+.w3-container {
+    max-width: 400px; /* Restrict the form to a maximum width of 400px */
+}
+
+/* Header Styling */
+h2 {
+    color: #4caf50;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* Input Styling */
+input[type="email"], input[type="password"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+/* Button Styling */
+button.w3-btn {
+    padding: 15px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button.w3-btn:hover {
+    opacity: 0.9;
+}
+
+/* Custom Button Styling for Login */
+button.w3-btn.w3-green {
+    background-color: #4caf50;
+    border: none;
+}
+
+button.w3-btn.w3-green:hover {
+    background-color: #45a049;
+}
+
+/* Change Register Button to Blue */
+button.w3-btn.w3-blue {
+    background-color: #007bff; /* Blue color */
+    border: none;
+}
+
+button.w3-btn.w3-blue:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
